@@ -1,0 +1,38 @@
+{
+  "name": "lab-brianna",
+  "version": "1.0.0",
+  "description": "This is a meaningful description",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brisourceful/lab-07-cowsay-http-server.git"
+  },
+  "keywords": [
+    "node",
+    "chai",
+    "http",
+    "cowsay"
+  ],
+  "author": "Brianna Burrows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brisourceful/lab-07-cowsay-http-server/issues"
+  },
+  "homepage": "https://github.com/brisourceful/lab-07-cowsay-http-server#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "cowsay": "^1.1.9"
+  }
+}
